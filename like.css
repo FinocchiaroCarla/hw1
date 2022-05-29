@@ -1,0 +1,162 @@
+nav{
+    background-color: rgba(238, 238, 238, 0.66);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width:100%;
+    position: fixed;
+    top: 0;
+    z-index:1;
+  }
+
+  nav a{
+    padding: 5px 15px;
+  }
+
+  nav #logo img{
+    width:200px;
+    height: 130px;
+    margin-top: 50px;
+    margin-left:10px;
+  }
+
+  a#home{
+    background-image: url(img/home.png);
+    margin:20px;
+    background-size: cover;
+    background-position: center;
+
+  }
+
+  #like{
+    background-image: url(img/like.png);
+    margin:20px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #user{
+    background-image: url(img/user.png);
+    margin:20px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #logout{
+    background-image: url(img/logout.png);
+    margin:20px;
+    background-size: cover;
+    background-position: center;
+  }
+
+    
+body{
+    background-image:url(img/back.jpg);
+    margin:0;
+}
+
+
+article{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  section{
+    width:80%;
+    margin-top: 150px;
+    margin-bottom:150px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 310;
+    height: 400;
+    margin:20px;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin:20px;
+}
+
+.head div.hi{
+    font-size:60px;
+}
+.head div{
+    font-family: 'Cabin Sketch', sans-serif;
+    font-size: 40px;
+    color:white;
+}
+
+.img_rec{
+    width: 320px;
+    height: 320px;
+    margin: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .title{
+    font-family: 'Cabin Sketch', sans-serif;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .type{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    color:white;
+  }
+  
+  
+  .bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width:300px;
+    background-color: rgba(254, 254, 254, 0);
+    padding:10px;
+    border-radius: 5px;
+    border:1.5px solid white;
+  }
+
+  .text{
+    max-width: 250px;
+  }
+
+  .x{
+    background-image:url(img/xx.png);
+    background-size: cover;
+    background-position: center;
+    width:40px;
+    height:40px;
+    padding:5px;
+  }
+  
+  .x:hover{
+    background-image:url(img/xx1.png);
+    background-size: cover;
+    background-position: center;
+  }
